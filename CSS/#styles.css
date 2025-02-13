@@ -1,0 +1,35 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2%;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 3%;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo > span {
+  color: #2e2f42;
+}
+
+nav a.nav-icons {
+  font-weight: 500;
+  color: #2e2f42;
+}
