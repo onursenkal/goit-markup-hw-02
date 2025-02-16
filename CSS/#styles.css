@@ -1,185 +1,232 @@
-/* Roboto ve Railway fontlarını body etiketi */
-
-body{
+body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #FFFFFF;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #ffffff;
 }
 
-/* BAŞLIK (HEADER BÖLÜMÜ) İÇİN CSS KURALLARI */
+h1 {
+  font-weight: bold;
+  font-size: 56px;
+}
 
-.nav-a{
-  font-family:'Raleway', sans-serif;
-  font-weight: 700 ;
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+h3 {
+  font-weight: medium;
+  font-size: 20px;
+}
+
+button {}
+
+a {
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+ol,
+ul {
+  list-style-type: none;
+
+}
+
+/*header*/
+#header {}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
+  font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:  #4d5ae5;
+  text-decoration: none;
+  color: #4d5ae5;
+
 }
-.nav-span{
+
+.header_logo_second {
   color: #2e2f42;
-  font-family:'Raleway', sans-serif;
-
 }
 
-.nav-lione{
-  font-weight: 500;
+.menu {
+  text-decoration: none;
+  color: #2e2f42;
   font-size: 16px;
-  line-height: 1.5;
+  font-weight: 500;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+}
 
-}
-.nav-lione:hover{
-  color: #404bbf;
-}
-.nav-lione:focus{
+.menu:hover,
+.menu:focus {
   color: #404bbf;
 }
 
-.nav-adres{
+.contact_information {
   font-style: normal;
 
 }
 
-.adres-a{
+.contact_list {
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
 
-}
-.adres-a:hover{
-  color: #404bbf ;
-}
-.adres-a:focus{
+.contact_list:hover,
+.contact_list:focus {
   color: #404bbf;
 }
 
-/* Effective Solutions ve Buton Bölümü için Css kuralları */
-
-
-.one-sec{
-  background-color: #2e2f42;
+menu:active {
+  text-decoration: underline;
+  text-decoration-color: #404BBF;
+  color: #404BBF;
 }
-.one-sechone{
-  font-size: 56px;
-  line-height: 1.07;
+
+/*SLIDER*/
+.slider {
+  background-color: #2E2F42;
   text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-  }
-.one-secbut{
-  background-color: #4D5AE5;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
-}
-.one-secbut:hover{
-  background-color: #404BBF
+
 }
 
-.one-secbut:focus{
+.slider_title {
+  color: #ffffff;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.blue_button {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: white;
+  background-color: #4D5AE5;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: none;
+  cursor: pointer;
+
+}
+
+.blue_button:hover {
   background-color: #404BBF;
 }
 
-/* Sitenin tanıtıldığı 4 maddelik o yer için css kuralları */ 
-.twosect-huc{
+.blue_button:focus {
+  background-color: #404BBF;
+}
+
+/*ABOUT US*/
+.about_us {}
+
+.about_us_list {}
+
+.about_us_subtitle {
   font-weight: 500;
-  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.twosect-p{
-  font-size: 16px;
-  line-height: 1.5;
+
+.about_us_content {
   letter-spacing: 0.02em;
-  color: #434455;
-
-
 }
 
-/* Our Team Bölümü Css kuralları */
+.about_us li {}
 
-.thersect{
-  background-color: #f4f4fd;
-
+/*OUR TEAM*/
+.our_team {
+  background-color: #F4F4FD;
 }
-.thersect-hiki{
-  font-size: 36px;
+
+.our_team_title {
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-
+  letter-spacing: 0.02em;
 }
-.thersect-li{
-  background-color: #FFFFFF;
 
-}
-.thersect-lihuc{
+.our_team_list {}
+
+.our_team_sub_title {
   font-weight: 500;
-  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.thersect-lip{
+
+.our_team_content {
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
-
 }
-/* OUR PORTFOLYONUN OLDUĞU YER İÇİN CSS KURALLARI */
 
+.our_team ul {
+  list-style: none outside none;
+}
 
-.foursect-hiki{
-  font-size: 36px;
-  line-height: 1.11;
+.our_team li {
+  background-color: #ffffff;
   text-align: center;
-  letter-spacing: 0.02em;
+}
+
+/*OUR PORTFOLIO*/
+#our_portfolio {
+  text-align: center;
+
+}
+
+#our_portfolio li {}
+
+.portfolio-title {
+  line-height: 1.11;
   text-transform: capitalize;
   color: #2e2f42;
-
+  letter-spacing: 0.02em;
 }
 
-.foursect-huc{
+.portfolio-sub-title {
   font-weight: 500;
-  font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-.foursect-p{
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
-
 }
 
-
-/* FOOTER BÖLÜMÜ CSS KURALLARI (a etiketi ve span etiketi header bölümündeki nav içindeki css'i kullanır) */
-
-.footer-class{
-  background-color: #2e2f42;
-
+.portfolio-content {
+  letter-spacing: 0.02em;
 }
-.foot-erpp{
-  line-height: 1.5;
+
+/*FOOTER*/
+footer {
+  font-family: "Raleway", sans-serif;
+  background-color: #2E2F42;
+  letter-spacing: 17.33;
+}
+
+.footer-text {
   color: #F4F4FD;
+  font-weight: 400;
+  line-height: 24px;
   letter-spacing: 0.02em;
 }
 
-.logo-span{
+.footer-logo {
+  line-height: 1.17;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #4d5ae5;
+  text-transform: uppercase
+}
+
+.footer_logo_second {
   color: #F4F4FD;
 }
