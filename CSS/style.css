@@ -8,7 +8,7 @@ body {
 	background-color: #ffffff;
 }
 
-h1 {
+h1 {-ms-content-zoom-snap-points: ;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -145,7 +145,7 @@ p {
 
 /* features-section-2 */
 .features-text {
-  letter-spacing: 0.002em;
+  letter-spacing: 0.02em;
 }
 
 /* our team-section-3 */
@@ -206,5 +206,5 @@ footer{
     
 }
 .footer_logo_studio{
-    color: #2e2f42;
+    color: #F4F4FD;
 }
