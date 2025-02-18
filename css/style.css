@@ -208,3 +208,29 @@ footer{
 .footer_logo_studio{
     color: #f4f4fd;
 }
+
+.footer-part {
+  color: #FFFFFF;
+  font-family: "Roboto" , sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+.footer-part {
+  background-color: #2E2F42;
+}
+.footer-text{
+  color: #F4F4FD;
+}
+
+
+
+
+
+
+
+
+
+
+
