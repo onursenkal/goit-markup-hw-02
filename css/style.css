@@ -208,3 +208,158 @@ footer{
 .footer-logo-studio{
   background color: #F4F4FD;
 }
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --header-font: 'Raleway', sans-serif;
+  --main-color: #333;
+  --accent-color: #007BFF;
+  --border-color: #ddd;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+  line-height: 1.5;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.page-header {
+  border-bottom: 1px solid var(--border-color);
+  padding: 20px 0;
+}
+
+.page-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  padding: 10px 0;
+}
+
+.page-nav .link {
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: 500;
+}
+
+.page-nav .link:hover {
+  color: var(--accent-color);
+}
+
+.section {
+  padding: 120px 0;
+  text-align: center;
+}
+
+.portfolio {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  border-bottom: 1px solid var(--border-color);
+  padding: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f1f1f1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 20px; /* Dışarıdaki genel boşluk */
+}
+
+h1 {
+  margin-bottom: 20px; /* Başlık ile paragraf arasında dikey boşluk */
+}
+
+p {
+  margin-bottom: 15px; /* Paragraf ile liste arasında dikey boşluk */
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 10px; /* Liste öğeleri arasında dikey boşluk */
+}
+
+h1 {
+  padding-top: 20px; /* Başlık üst çerçevesi ile içeriği arasındaki boşluk */
+  padding-bottom: 20px; /* Başlık alt çerçevesi ile içeriği arasındaki boşluk */
+  text-align: center;
+  background-color: #f7f7f7; /* Görselleştirme için arka plan rengi */
+}
+
+.content-box {
+  padding: 30px 15px; /* Üst ve alt padding 30px, yan padding 15px */
+  background-color: #eaeaea;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Ortak .container Sınıfı */
+.container {
+  max-width: 1158px; /* Genişliği sınırla */
+  margin: 0 auto; /* Ortalamak için kenar boşluklarını otomatik ayarla */
+  padding: 0 15px; /* Kenarlardan içerik sıkışmasın diye boşluk bırak */
+}
+
+.header {
+  display: flex; /* Flexbox etkinleştirme */
+  justify-content: space-between; /* Logo ve navigasyonu iki uçta hizala */
+  align-items: center; /* Dikey hizalama */
+  padding: 15px 30px;
+  background-color: #f8f9fa;
+}
+
+.nav-list {
+  display: flex; /* Menü öğelerini yatay hizala */
+  list-style: none;
+  gap: 20px; /* Öğeler arasına boşluk ekle */
+}
+
+
+/* Özellikler Bölümü */
+.features {
+  display: flex; /* Özellikleri yatay hizala */
+}
